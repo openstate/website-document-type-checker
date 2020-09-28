@@ -1,4 +1,4 @@
-### Spider that crawls all pages on a domain and downloads all files
+# Spider that crawls all pages on a domain and downloads all files
 
 ## Install (on Ubuntu)
 ```
@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## Run
-# Edit `allowed_domains` and `start_urls` in `spider.py` 
+### Edit `allowed_domains` and `start_urls` in `spider.py` 
 ```
 scrapy runspider spider.py
 ```
